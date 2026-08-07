@@ -17,8 +17,18 @@ course:
 
 ## Xem bản video
 
-Bản video 2:51 của bài này: [Decision Tree & Random Forest: cây nhớ, rừng hiểu](https://youtu.be/X1zVoNlltc4).
-Bài viết dưới đây đi sâu hơn và có code chạy được.
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#0B1020;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/X1zVoNlltc4"
+    title="Bài 5: Decision Tree & Random Forest: cây nhớ, rừng hiểu"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
+Bản video 2:51. Bài viết dưới đây đi sâu hơn và có code chạy được.
+Cả 13 tập ở [playlist](https://www.youtube.com/playlist?list=PLe9eqdcVq_qU), xếp sẵn theo thứ tự 1 → 13.
 
 ## Gini: đo độ lẫn của một nhóm
 

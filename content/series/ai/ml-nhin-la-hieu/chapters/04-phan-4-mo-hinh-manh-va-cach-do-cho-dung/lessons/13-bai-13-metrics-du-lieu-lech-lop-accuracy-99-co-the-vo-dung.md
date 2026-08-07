@@ -17,8 +17,18 @@ course:
 
 ## Xem bản video
 
-Bản video 3:23 của bài này: [Metrics & dữ liệu lệch lớp: accuracy 99% có thể vô dụng](https://youtu.be/iDrvCCT2ItE).
-Bài viết dưới đây đi sâu hơn và có code chạy được.
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#0B1020;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/iDrvCCT2ItE"
+    title="Bài 13: Metrics & dữ liệu lệch lớp: accuracy 99% có thể vô dụng"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
+Bản video 3:23. Bài viết dưới đây đi sâu hơn và có code chạy được.
+Cả 13 tập ở [playlist](https://www.youtube.com/playlist?list=PLe9eqdcVq_qU), xếp sẵn theo thứ tự 1 → 13.
 
 ## Hai mô hình, cùng một con số
 

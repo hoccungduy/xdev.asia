@@ -17,8 +17,18 @@ course:
 
 ## Xem bản video
 
-Bản video 2:56 của bài này: [Logistic Regression: từ khoảng cách tới xác suất](https://youtu.be/5wFwArSUJ_s).
-Bài viết dưới đây đi sâu hơn và có code chạy được.
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#0B1020;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/5wFwArSUJ_s"
+    title="Bài 3: Logistic Regression: từ khoảng cách tới xác suất"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
+Bản video 2:56. Bài viết dưới đây đi sâu hơn và có code chạy được.
+Cả 13 tập ở [playlist](https://www.youtube.com/playlist?list=PLe9eqdcVq_qU), xếp sẵn theo thứ tự 1 → 13.
 
 ## Đổi câu hỏi thì đổi cả cách đọc đường thẳng
 

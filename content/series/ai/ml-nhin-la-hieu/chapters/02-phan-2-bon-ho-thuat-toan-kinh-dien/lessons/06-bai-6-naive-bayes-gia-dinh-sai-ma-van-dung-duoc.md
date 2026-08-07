@@ -17,8 +17,18 @@ course:
 
 ## Xem bản video
 
-Bản video 2:48 của bài này: [Naive Bayes: giả định sai mà vẫn dùng được](https://youtu.be/xB4Kd0SlA5I).
-Bài viết dưới đây đi sâu hơn và có code chạy được.
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#0B1020;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/xB4Kd0SlA5I"
+    title="Bài 6: Naive Bayes: giả định sai mà vẫn dùng được"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
+Bản video 2:48. Bài viết dưới đây đi sâu hơn và có code chạy được.
+Cả 13 tập ở [playlist](https://www.youtube.com/playlist?list=PLe9eqdcVq_qU), xếp sẵn theo thứ tự 1 → 13.
 
 ## Nó đếm, nó không vẽ ranh giới
 

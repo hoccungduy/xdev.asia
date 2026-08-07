@@ -17,8 +17,18 @@ course:
 
 ## Xem bản video
 
-Bản video 2:47 của bài này: [K-means: luôn trả về k cụm, kể cả khi không có cụm nào](https://youtu.be/ZzseYmIQRQo).
-Bài viết dưới đây đi sâu hơn và có code chạy được.
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#0B1020;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/ZzseYmIQRQo"
+    title="Bài 8: K-means: luôn trả về k cụm, kể cả khi không có cụm nào"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
+Bản video 2:47. Bài viết dưới đây đi sâu hơn và có code chạy được.
+Cả 13 tập ở [playlist](https://www.youtube.com/playlist?list=PLe9eqdcVq_qU), xếp sẵn theo thứ tự 1 → 13.
 
 ## Vòng lặp chỉ có hai bước
 

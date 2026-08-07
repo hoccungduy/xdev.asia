@@ -17,8 +17,18 @@ course:
 
 ## Xem bản video
 
-Bản video 2:49 của bài này: [Gradient Boosting & XGBoost: mỗi cây chỉ học phần còn sai](https://youtu.be/rAh7gNhPigE).
-Bài viết dưới đây đi sâu hơn và có code chạy được.
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#0B1020;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/rAh7gNhPigE"
+    title="Bài 10: Gradient Boosting & XGBoost: mỗi cây chỉ học phần còn sai"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
+Bản video 2:49. Bài viết dưới đây đi sâu hơn và có code chạy được.
+Cả 13 tập ở [playlist](https://www.youtube.com/playlist?list=PLe9eqdcVq_qU), xếp sẵn theo thứ tự 1 → 13.
 
 ## Nối tiếp, không song song
 
