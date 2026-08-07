@@ -48,9 +48,12 @@ quả của một cây thật mọc trên 140 căn hộ thật. Repo kèm theo c
 
 Mỗi bài có ba lớp, đọc lớp nào cũng được:
 
-1. **Video 3 phút** — hiểu ý chính, không cần code
+1. **Video 3 phút** — hiểu ý chính, không cần code.
+   Cả 13 tập ở [playlist trên YouTube](https://www.youtube.com/playlist?list=PLe9eqdcVq_qU),
+   xếp sẵn theo thứ tự 1 → 13.
 2. **Bài viết** — số liệu đo được, chỗ thuật toán hỏng, và code đọc được
-3. **Repo** — chạy lại đúng những con số đó, và sửa thử để xem gì đổi
+3. **Repo** — [github.com/tdduydev/ml-nhin-la-hieu](https://github.com/tdduydev/ml-nhin-la-hieu):
+   chạy lại đúng những con số đó, và sửa thử để xem gì đổi
 
 ```bash
 git clone https://github.com/tdduydev/ml-nhin-la-hieu
