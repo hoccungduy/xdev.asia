@@ -184,7 +184,7 @@ thái, nhưng dễ làm người đọc tưởng không gian này nhỏ.
 
 ## Chạy lại
 
-Toàn bộ con số trong bài duyệt ra bằng một tệp Python khoảng 40 dòng, không phụ thuộc ngoài,
+Toàn bộ con số trong bài duyệt ra bằng một tệp Python 113 dòng, không phụ thuộc ngoài,
 chạy hết hai giây:
 
 ```bash
