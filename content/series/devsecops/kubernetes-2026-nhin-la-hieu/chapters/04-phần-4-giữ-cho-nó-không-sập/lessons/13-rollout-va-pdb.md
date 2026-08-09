@@ -6,7 +6,7 @@ description: >-
   Bốn chỗ rơi, và cả bốn đều là chỗ Kubernetes cố tình không tự lo.
 duration_minutes: 15
 is_free: true
-video_url: null
+video_url: https://youtu.be/4UfzNkXfYWQ
 sort_order: 3
 section_title: 'Phần 4: Giữ cho nó không sập'
 course:
@@ -14,6 +14,18 @@ course:
   title: 'Kubernetes 2026 nhìn là hiểu'
   slug: kubernetes-2026-nhin-la-hieu
 ---
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/4UfzNkXfYWQ"
+    title="Bài 13: Cập nhật cuốn chiếu vẫn rơi request"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
 
 ## Thử đo trong lúc deploy mà xem
 

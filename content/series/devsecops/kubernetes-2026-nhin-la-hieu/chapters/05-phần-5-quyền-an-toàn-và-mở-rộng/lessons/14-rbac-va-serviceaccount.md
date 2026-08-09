@@ -6,7 +6,7 @@ description: >-
   Mỗi pod cũng là một danh tính. Và động từ list gần bằng quyền đọc nội dung.
 duration_minutes: 14
 is_free: true
-video_url: null
+video_url: https://youtu.be/_OfOl_F1eJQ
 sort_order: 0
 section_title: 'Phần 5: Quyền, an toàn, và mở rộng'
 course:
@@ -14,6 +14,18 @@ course:
   title: 'Kubernetes 2026 nhìn là hiểu'
   slug: kubernetes-2026-nhin-la-hieu
 ---
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/_OfOl_F1eJQ"
+    title="Bài 14: RBAC — tai nạn đến từ ServiceAccount"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
 
 ## Chỗ tai nạn thật sự xảy ra
 

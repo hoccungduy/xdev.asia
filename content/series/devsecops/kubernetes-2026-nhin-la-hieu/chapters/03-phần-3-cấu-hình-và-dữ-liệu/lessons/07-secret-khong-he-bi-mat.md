@@ -6,7 +6,7 @@ description: >-
   Mặc định chỉ là base64 trong etcd. Và quyền tạo Pod gần bằng quyền đọc mọi Secret trong namespace.
 duration_minutes: 14
 is_free: true
-video_url: null
+video_url: https://youtu.be/2CfCxFlKLJM
 sort_order: 0
 section_title: 'Phần 3: Cấu hình và dữ liệu'
 course:
@@ -14,6 +14,18 @@ course:
   title: 'Kubernetes 2026 nhìn là hiểu'
   slug: kubernetes-2026-nhin-la-hieu
 ---
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/2CfCxFlKLJM"
+    title="Bài 7: Secret không hề bí mật"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
 
 ## Tự gõ ba lệnh này
 

@@ -6,7 +6,7 @@ description: >-
   Không có tiến trình nào tên là Service. Nó là luật trên từng máy — và IPVS đã bị gỡ ở 1.36.
 duration_minutes: 16
 is_free: true
-video_url: null
+video_url: https://youtu.be/IqDjlnDBr3g
 sort_order: 0
 section_title: 'Phần 2: Đưa lưu lượng vào cụm'
 course:
@@ -14,6 +14,18 @@ course:
   title: 'Kubernetes 2026 nhìn là hiểu'
   slug: kubernetes-2026-nhin-la-hieu
 ---
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/IqDjlnDBr3g"
+    title="Bài 4: Service không phải là load balancer"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
 
 ## Cái hộp không tồn tại
 

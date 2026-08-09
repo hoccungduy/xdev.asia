@@ -6,7 +6,7 @@ description: >-
   CPU nén được nên vượt limit là bị bóp; bộ nhớ không nén được nên vượt là bị giết.
 duration_minutes: 16
 is_free: true
-video_url: null
+video_url: https://youtu.be/6q-aJRpkOEc
 sort_order: 1
 section_title: 'Phần 4: Giữ cho nó không sập'
 course:
@@ -14,6 +14,18 @@ course:
   title: 'Kubernetes 2026 nhìn là hiểu'
   slug: kubernetes-2026-nhin-la-hieu
 ---
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/6q-aJRpkOEc"
+    title="Bài 11: requests, limits, và ai bị giết trước"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
 
 ## Một thói quen nghe rất vô hại
 

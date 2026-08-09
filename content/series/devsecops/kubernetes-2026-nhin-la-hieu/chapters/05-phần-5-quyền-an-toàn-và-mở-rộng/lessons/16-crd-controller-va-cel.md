@@ -6,7 +6,7 @@ description: >-
   CRD một mình không làm gì. Và từ 1.36, cả hai pha kiểm duyệt viết được bằng CEL trong API server.
 duration_minutes: 15
 is_free: true
-video_url: null
+video_url: https://youtu.be/p-qr9IUXDrU
 sort_order: 2
 section_title: 'Phần 5: Quyền, an toàn, và mở rộng'
 course:
@@ -14,6 +14,18 @@ course:
   title: 'Kubernetes 2026 nhìn là hiểu'
   slug: kubernetes-2026-nhin-la-hieu
 ---
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/p-qr9IUXDrU"
+    title="Bài 16: Mở rộng Kubernetes — và webhook giờ đã có cách thay"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
 
 ## Vì sao ai cũng rùng mình
 

@@ -6,7 +6,7 @@ description: >-
   Tháng 3/2026 dự án ngừng phát triển, repo chỉ đọc, không còn vá bảo mật. Và nó đứng ngay ở cửa vào.
 duration_minutes: 13
 is_free: true
-video_url: null
+video_url: https://youtu.be/ac8x0L-7zss
 sort_order: 1
 section_title: 'Phần 2: Đưa lưu lượng vào cụm'
 course:
@@ -14,6 +14,18 @@ course:
   title: 'Kubernetes 2026 nhìn là hiểu'
   slug: kubernetes-2026-nhin-la-hieu
 ---
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/ac8x0L-7zss"
+    title="Bài 5: ingress-nginx đã đóng băng — việc phải làm"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
 
 > **Bài này giao việc, không dạy lý thuyết.** Nếu cụm của bạn đang chạy ingress-nginx thì đây
 > là thứ nên đọc trước mọi thứ khác trong series.

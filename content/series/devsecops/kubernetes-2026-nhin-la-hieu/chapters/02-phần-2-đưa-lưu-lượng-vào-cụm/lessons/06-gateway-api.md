@@ -6,7 +6,7 @@ description: >-
   Điểm chính không nằm ở cú pháp mà ở chỗ chia việc cho ai — ba tài nguyên cho ba vai.
 duration_minutes: 16
 is_free: true
-video_url: null
+video_url: https://youtu.be/mq7sdWZLgvU
 sort_order: 2
 section_title: 'Phần 2: Đưa lưu lượng vào cụm'
 course:
@@ -14,6 +14,18 @@ course:
   title: 'Kubernetes 2026 nhìn là hiểu'
   slug: kubernetes-2026-nhin-la-hieu
 ---
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/mq7sdWZLgvU"
+    title="Bài 6: Gateway API không phải Ingress viết lại"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
 
 ## Hiểu nhầm tốn kém nhất
 

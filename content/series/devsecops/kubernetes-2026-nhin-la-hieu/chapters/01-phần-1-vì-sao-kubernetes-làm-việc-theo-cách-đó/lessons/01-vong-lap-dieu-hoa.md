@@ -6,7 +6,7 @@ description: >-
   Câu lệnh chỉ ghi mong muốn vào sổ. Việc tạo container do một vòng lặp khác làm, và nó chạy mãi mãi.
 duration_minutes: 14
 is_free: true
-video_url: null
+video_url: https://youtu.be/7KtS1968JlY
 sort_order: 0
 section_title: 'Phần 1: Vì sao Kubernetes làm việc theo cách đó'
 course:
@@ -14,6 +14,18 @@ course:
   title: 'Kubernetes 2026 nhìn là hiểu'
   slug: kubernetes-2026-nhin-la-hieu
 ---
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/7KtS1968JlY"
+    title="Bài 1: kubectl apply không ra lệnh cho cụm"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
 
 ## Cái ai cũng nghĩ
 

@@ -6,7 +6,7 @@ description: >-
   Pod là cái vỏ chia sẻ mạng, ổ đĩa và vòng đời. Và Pod trần thì không ai dựng lại.
 duration_minutes: 15
 is_free: true
-video_url: null
+video_url: https://youtu.be/0YqdGvhGzQM
 sort_order: 1
 section_title: 'Phần 1: Vì sao Kubernetes làm việc theo cách đó'
 course:
@@ -14,6 +14,18 @@ course:
   title: 'Kubernetes 2026 nhìn là hiểu'
   slug: kubernetes-2026-nhin-la-hieu
 ---
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/0YqdGvhGzQM"
+    title="Bài 2: Pod không phải là container"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
 
 ## Câu mở đầu của mọi hướng dẫn
 

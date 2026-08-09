@@ -6,7 +6,7 @@ description: >-
   Đặt liveness giống readiness là cách kinh điển tự tạo ra một vòng xoáy chết.
 duration_minutes: 15
 is_free: true
-video_url: null
+video_url: https://youtu.be/41F723tTS1g
 sort_order: 0
 section_title: 'Phần 4: Giữ cho nó không sập'
 course:
@@ -14,6 +14,18 @@ course:
   title: 'Kubernetes 2026 nhìn là hiểu'
   slug: kubernetes-2026-nhin-la-hieu
 ---
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/41F723tTS1g"
+    title="Bài 10: Ba loại probe, và cách đặt sai làm sập chính mình"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
 
 ## Cách nhanh nhất, và cũng là cách sai nhất
 

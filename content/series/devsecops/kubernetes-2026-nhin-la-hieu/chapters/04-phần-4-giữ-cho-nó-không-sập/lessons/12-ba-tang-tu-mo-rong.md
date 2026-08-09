@@ -6,7 +6,7 @@ description: >-
   HPA về 0 bật sẵn từ 1.36 — nhưng ở mức 0 thì HPA mù, và không thể tự bật lại bằng CPU.
 duration_minutes: 15
 is_free: true
-video_url: null
+video_url: https://youtu.be/KA-znkQPlGw
 sort_order: 2
 section_title: 'Phần 4: Giữ cho nó không sập'
 course:
@@ -14,6 +14,18 @@ course:
   title: 'Kubernetes 2026 nhìn là hiểu'
   slug: kubernetes-2026-nhin-la-hieu
 ---
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/KA-znkQPlGw"
+    title="Bài 12: Ba tầng tự mở rộng, và cái bẫy ở mức 0"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
 
 ## Không chỉ có HPA
 

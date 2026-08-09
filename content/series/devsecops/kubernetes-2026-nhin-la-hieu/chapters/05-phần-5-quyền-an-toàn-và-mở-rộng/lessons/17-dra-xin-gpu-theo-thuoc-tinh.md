@@ -6,7 +6,7 @@ description: >-
   Xin bằng một con số nguyên là xin mù. DRA xin theo thuộc tính — nhưng ổn định ≠ driver sẵn sàng.
 duration_minutes: 15
 is_free: true
-video_url: null
+video_url: https://youtu.be/Ib34VHwY1jA
 sort_order: 3
 section_title: 'Phần 5: Quyền, an toàn, và mở rộng'
 course:
@@ -14,6 +14,18 @@ course:
   title: 'Kubernetes 2026 nhìn là hiểu'
   slug: kubernetes-2026-nhin-la-hieu
 ---
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/Ib34VHwY1jA"
+    title="Bài 17: DRA — cách xin GPU đã đổi hẳn"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
 
 ## Một con số mờ đục
 

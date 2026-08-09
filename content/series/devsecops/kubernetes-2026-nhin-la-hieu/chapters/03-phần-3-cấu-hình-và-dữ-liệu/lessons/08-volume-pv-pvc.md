@@ -6,7 +6,7 @@ description: >-
   PVC là đơn xin, StorageClass là bên cấp, PV là cái được cấp. Và xoá PVC là mất luôn đĩa.
 duration_minutes: 15
 is_free: true
-video_url: null
+video_url: https://youtu.be/n9kwJcQseiM
 sort_order: 1
 section_title: 'Phần 3: Cấu hình và dữ liệu'
 course:
@@ -14,6 +14,18 @@ course:
   title: 'Kubernetes 2026 nhìn là hiểu'
   slug: kubernetes-2026-nhin-la-hieu
 ---
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/n9kwJcQseiM"
+    title="Bài 8: Volume, PV, PVC — ai mới là bên cấp"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
 
 ## Chuyện đã xảy ra với khá nhiều người
 
