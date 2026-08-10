@@ -22,6 +22,18 @@ Bài này điểm lại từng bản đổi cái gì, cái gì đã bị khai t�
 
 Một câu rào trước cho tử tế: bài này bám tài liệu chính thức của Microsoft, link nguồn nằm ở cuối. Chỗ nào là nhận định của tôi thì tôi ghi rõ là nhận định.
 
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/1PfQ9ahhcAA"
+    title="SQL Server 2019 → 2025: từng bản đổi gì, và cái gì đã bị khai tử"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
 ## Bảng tóm tắt
 
 | | SQL Server 2019 | SQL Server 2022 | SQL Server 2025 |
