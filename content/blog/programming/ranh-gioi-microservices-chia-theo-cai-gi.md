@@ -312,9 +312,19 @@ là đường ngắn hơn.
 
 Ghi ra để anh em biết đường tự tra, và để tôi không tự cho mình quyền nói thứ mình không kiểm được:
 
-- **"Things that change together belong together."** Câu này xuất hiện đầy trên blog và site khoá
-  học, nhưng tôi **không** tìm được nó trong tài liệu Microsoft. Thứ gần nhất là định nghĩa loose
-  coupling ở trên. Nên tôi dùng câu nguyên văn của tài liệu, bỏ câu khẩu hiệu.
+- ~~**"Things that change together belong together."**~~ **ĐÍNH CHÍNH (11/08/2026):** khi viết bài
+  này tôi ghi là không tìm được câu đó trong tài liệu Microsoft nên đã bỏ. **Tôi tra chưa đủ.**
+  Trang [Microservices architecture style](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
+  có đúng ý đó trong mục Best practices, bằng chữ của Microsoft:
+
+  > Services should have loose coupling and high functional cohesion. **Functions that are likely to
+  > change together should be packaged and deployed together.** If they reside in separate services,
+  > those services end up being **tightly coupled**, because a change in one service requires
+  > updating the other service. **Overly chatty communication between two services might be a symptom
+  > of tight coupling and low cohesion.**
+
+  Câu cuối còn giải thích **vì sao** tiêu chí số 2 ở trên ("không gọi nhau lải nhải") là dấu hiệu
+  xấu: lải nhải là triệu chứng của ghép chặt và kết dính thấp.
 - **Nhãn "distributed monolith".** Tôi chưa tra ra định nghĩa trong nguồn có thẩm quyền. Thứ tài liệu
   có là *"hidden dependencies between services, tight coupling"* và tiêu chí số 4. Nên tôi nói bằng
   cơ chế, không dùng nhãn.
