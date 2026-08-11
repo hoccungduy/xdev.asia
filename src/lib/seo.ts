@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { LOCALE_HTML_LANG, type Locale } from "@/lib/i18n/config";
 import type { Author, Post, PostIndex } from "@/lib/types";
 import { getValidImageUrl } from "@/utils/image";
+import { getLocalImageSize } from "./image-size";
 
 export const SITE_URL = "https://xdev.asia";
 export const SITE_NAME = "xDev Asia";
@@ -81,11 +82,14 @@ export function buildArticleMetadata({
       type: "article",
       ...(post.published_at ? { publishedTime: post.published_at } : {}),
       authors: [post.author.name],
+      // Kích thước đọc từ FILE THẬT, không khai cứng: ảnh trên site có nhiều cỡ (1920×1080,
+      // 1600×900, 960×720…) nên một con số cố định sai cho gần hết bài, và Facebook dựng khung
+      // xem trước lệch tỉ lệ. Đo không được (ảnh ngoài site, SVG, hoặc file thiếu) thì BỎ hẳn
+      // width/height — khai số đoán còn tệ hơn không khai.
       images: [
         {
           url: imageUrl,
-          width: 1200,
-          height: 630,
+          ...(getLocalImageSize(post.featured_image ?? "") ?? {}),
           alt: post.title,
         },
       ],
