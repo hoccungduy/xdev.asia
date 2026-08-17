@@ -226,7 +226,7 @@ sections:
         duration_minutes: 150
         is_free: true
         sort_order: 12
-        video_url: null
+        video_url: https://youtu.be/L_jHskU_1Tw
       - id: 019e0a10-a403-7001-d001-f1a7f8000403
         title: 'Bài 13: Profiles, Extensions và Implementation Guides'
         slug: bai-13-profiles-extensions-va-implementation-guides
