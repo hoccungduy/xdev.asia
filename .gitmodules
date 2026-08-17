@@ -4,3 +4,6 @@
 [submodule "repo-demo/gemma-4-local-ai-engineering-on-mac"]
 	path = repo-demo/gemma-4-local-ai-engineering-on-mac
 	url = git@github.com:xdev-asia-labs/gemma-4-local-ai-engineering-on-mac.git
+[submodule "repo-demo/hl7-fhir-lab"]
+	path = repo-demo/hl7-fhir-lab
+	url = git@github.com:hoccungduy/hl7-fhir-lab.git
