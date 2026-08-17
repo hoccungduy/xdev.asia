@@ -327,6 +327,87 @@ course:
 </tbody>
 </table>
 
+<figure style="margin:2rem 0;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" style="max-width:100%;height:auto" role="img" aria-labelledby="title desc">
+  <title id="title">FHIR khoá cứng cờ quy trình, và để mở thứ mang nghĩa</title>
+  <desc id="desc">Bốn mức ràng buộc thuật ngữ của FHIR R5, từ required đến example, với Observation.status ở required và Observation.code ở example.</desc>
+
+  <g font-family="system-ui, -apple-system, sans-serif" fill="var(--n-text)">
+    <text x="48" y="54" font-size="30" font-weight="700">FHIR khoá cứng cờ quy trình, và để mở thứ mang nghĩa</text>
+    <line x1="48" y1="78" x2="1152" y2="78" stroke="var(--n-divider)" stroke-width="1"/>
+
+    <text x="48" y="111" font-size="12" font-weight="650" letter-spacing="1.8">CHẶT NHẤT</text>
+    <text x="1152" y="111" font-size="12" font-weight="650" letter-spacing="1.8" text-anchor="end">LỎNG NHẤT</text>
+    <line x1="142" y1="107" x2="1052" y2="107" stroke="var(--n-divider)" stroke-width="1"/>
+
+    <line x1="70" y1="155" x2="70" y2="495" stroke="var(--n-divider)" stroke-width="1"/>
+
+    <g>
+      <circle cx="70" cy="176" r="5" fill="var(--n-surface)" stroke="var(--n-divider)" stroke-width="1"/>
+      <rect x="102" y="132" width="760" height="88" fill="var(--n-surface)" stroke="var(--n-divider)" stroke-width="1"/>
+      <text x="126" y="163" font-size="14" font-weight="700" letter-spacing="2.2">REQUIRED</text>
+      <text x="126" y="190" font-size="14" opacity="0.72">
+        <tspan x="126" dy="0">To be conformant, the concept in this element SHALL be from the</tspan>
+        <tspan x="126" dy="20">specified value set.</tspan>
+      </text>
+    </g>
+
+    <g>
+      <circle cx="70" cy="284" r="5" fill="var(--n-surface)" stroke="var(--n-divider)" stroke-width="1"/>
+      <rect x="102" y="240" width="760" height="88" fill="var(--n-surface)" stroke="var(--n-divider)" stroke-width="1"/>
+      <text x="126" y="271" font-size="14" font-weight="700" letter-spacing="2.2">EXTENSIBLE</text>
+      <text x="126" y="298" font-size="14" opacity="0.72">
+        <tspan x="126" dy="0">SHALL be from the specified value set if any of the codes within the</tspan>
+        <tspan x="126" dy="20">value set can apply.</tspan>
+      </text>
+    </g>
+
+    <g>
+      <circle cx="70" cy="392" r="5" fill="var(--n-surface)" stroke="var(--n-divider)" stroke-width="1"/>
+      <rect x="102" y="348" width="760" height="88" fill="var(--n-surface)" stroke="var(--n-divider)" stroke-width="1"/>
+      <text x="126" y="379" font-size="14" font-weight="700" letter-spacing="2.2">PREFERRED</text>
+      <text x="126" y="406" font-size="14" opacity="0.72">
+        <tspan x="126" dy="0">Instances are encouraged to draw from the specified codes … but are not</tspan>
+        <tspan x="126" dy="20">required to do so to be considered conformant.</tspan>
+      </text>
+    </g>
+
+    <g>
+      <circle cx="70" cy="500" r="5" fill="var(--n-surface)" stroke="var(--n-divider)" stroke-width="1"/>
+      <rect x="102" y="456" width="760" height="88" fill="var(--n-surface)" stroke="var(--n-divider)" stroke-width="1"/>
+      <text x="126" y="487" font-size="14" font-weight="700" letter-spacing="2.2">EXAMPLE</text>
+      <text x="126" y="514" font-size="14" opacity="0.72">
+        <tspan x="126" dy="0">Instances are not expected or even encouraged to draw from the</tspan>
+        <tspan x="126" dy="20">specified value set.</tspan>
+      </text>
+    </g>
+
+    <g>
+      <path d="M862 176 H894" fill="none" stroke="var(--n-accent)" stroke-width="1"/>
+      <circle cx="894" cy="176" r="4" fill="var(--n-accent)"/>
+      <text x="914" y="161" font-size="15" font-weight="700" fill="var(--n-accent)">Observation.status</text>
+      <text x="914" y="188" font-size="13" fill="var(--n-accent)">cờ quy trình</text>
+    </g>
+
+    <g>
+      <path d="M862 500 H894" fill="none" stroke="var(--n-accent)" stroke-width="1"/>
+      <circle cx="894" cy="500" r="4" fill="var(--n-accent)"/>
+      <text x="914" y="485" font-size="15" font-weight="700" fill="var(--n-accent)">Observation.code</text>
+      <text x="914" y="512" font-size="13" font-weight="650" fill="var(--n-accent)">thứ nói ĐÃ ĐO CÁI GÌ</text>
+    </g>
+
+    <line x1="48" y1="568" x2="1152" y2="568" stroke="var(--n-divider)" stroke-width="1"/>
+    <text x="48" y="594" font-size="12" opacity="0.72">Nguồn: HL7 FHIR R5 (v5.0.0) — terminologies.html, observation.html</text>
+  </g>
+</svg>
+  <figcaption style="margin-top:0.75rem;font-size:0.9rem;opacity:0.7;">
+    Bảng trên liệt kê bốn mức. Chỗ đáng chú ý là hai mức đó rơi vào đâu <em>trong cùng một
+    resource</em>: <code>Observation.status</code> — một cờ quy trình — ở mức <code>required</code>,
+    còn <code>Observation.code</code>, thứ nói đã đo cái gì, ở mức <code>example</code>.
+  </figcaption>
+</figure>
+
+
 <h2 id="6-terminology-operations"><strong>6. Terminology Service Operations</strong></h2>
 
 <pre><code class="language-http"># $validate-code — kiểm tra code có hợp lệ trong ValueSet
