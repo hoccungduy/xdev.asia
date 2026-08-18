@@ -290,7 +290,7 @@ sections:
         duration_minutes: 120
         is_free: true
         sort_order: 17
-        video_url: null
+        video_url: https://youtu.be/QTDxDb1uR4E
   - id: section-06
     title: 'Phần 6: Thực hành - Xây dựng hệ thống FHIR'
     description: 'Hands-on xây dựng FHIR Server, Client, Implementation Guide'

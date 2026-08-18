@@ -9,7 +9,7 @@ description: >-
   best practices bảo mật cho FHIR Server.
 duration_minutes: 120
 is_free: true
-video_url: null
+video_url: https://youtu.be/QTDxDb1uR4E
 sort_order: 17
 section_title: "Phần 5: Tích hợp, Messaging và Security"
 course:
@@ -87,6 +87,19 @@ course:
   <!-- xDev watermark -->
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/QTDxDb1uR4E"
+    title="Bài 17: Security, Privacy và Consent trong FHIR"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
 
 <h2 id="1-fhir-security-overview"><strong>1. FHIR Security Overview</strong></h2>
 
