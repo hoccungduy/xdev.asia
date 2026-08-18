@@ -371,7 +371,7 @@ sections:
         duration_minutes: 120
         is_free: true
         sort_order: 23
-        video_url: null
+        video_url: https://youtu.be/JpkX0P1Bhh8
       - id: 019e0a10-a703-7001-d001-f1a7f8000703
         title: 'Bài 24: Case Studies - US Core, IPS và triển khai thực tế'
         slug: bai-24-case-studies-us-core-ips-va-trien-khai-thuc-te
