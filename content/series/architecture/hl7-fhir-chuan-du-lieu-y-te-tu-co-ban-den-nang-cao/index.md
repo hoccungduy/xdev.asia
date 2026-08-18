@@ -86,7 +86,7 @@ sections:
         duration_minutes: 90
         is_free: true
         sort_order: 1
-        video_url: null
+        video_url: https://youtu.be/Aog3TD-JpDs
       - id: 019e0a10-a102-7001-d001-f1a7f8000102
         title: 'Bài 2: Tổng quan FHIR R5 - Kiến trúc và nguyên tắc thiết kế'
         slug: bai-2-tong-quan-fhir-r5-kien-truc-va-nguyen-tac-thiet-ke
