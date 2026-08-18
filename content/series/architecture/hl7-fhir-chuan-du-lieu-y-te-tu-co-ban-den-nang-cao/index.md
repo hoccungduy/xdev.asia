@@ -238,7 +238,7 @@ sections:
         duration_minutes: 150
         is_free: true
         sort_order: 13
-        video_url: null
+        video_url: https://youtu.be/SeeVqd8I_wM
   - id: section-05
     title: 'Phần 5: Tích hợp, Messaging và Security'
     description: 'Documents, Messaging, Subscriptions, SMART on FHIR, bảo mật'

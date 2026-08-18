@@ -9,7 +9,7 @@ description: >-
   International Patient Summary (IPS). FHIR Shorthand (FSH).
 duration_minutes: 150
 is_free: true
-video_url: null
+video_url: https://youtu.be/SeeVqd8I_wM
 sort_order: 13
 section_title: "Phần 4: Data Types, Terminologies và Profiles"
 course:
@@ -87,6 +87,19 @@ course:
   <!-- xDev watermark -->
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/SeeVqd8I_wM"
+    title="Bài 13: Profiles, Extensions và Implementation Guides"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
 
 <h2 id="1-profiles"><strong>1. Profiles — Ràng buộc Resources</strong></h2>
 
