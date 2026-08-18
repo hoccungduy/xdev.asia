@@ -278,7 +278,7 @@ sections:
         duration_minutes: 150
         is_free: true
         sort_order: 16
-        video_url: null
+        video_url: https://youtu.be/jPE_F4-ZMIo
       - id: 019e0a10-a504-7001-d001-f1a7f8000504
         title: 'Bài 17: Security, Privacy và Consent trong FHIR'
         slug: bai-17-security-privacy-va-consent-trong-fhir
