@@ -8,7 +8,7 @@ description: >-
   Thực hành tạo, đọc, cập nhật Patient trên FHIR Server.
 duration_minutes: 150
 is_free: true
-video_url: null
+video_url: https://youtu.be/QXUAV58WwJ4
 sort_order: 4
 section_title: "Phần 2: FHIR Resources cốt lõi"
 course:
@@ -87,6 +87,19 @@ course:
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
 
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/QXUAV58WwJ4"
+    title="Bài 4: Patient, Practitioner, Organization — Resources hành chính"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
+
 <h2 id="1-patient-resource"><strong>1. Patient Resource — Trung tâm dữ liệu y tế</strong></h2>
 
 <p><strong>Patient</strong> là Resource quan trọng nhất trong FHIR — hầu hết mọi dữ liệu lâm sàng đều liên kết với một Patient. Đây cũng là Resource đầu tiên đạt cấp <strong>Normative</strong> (stable, backward-compatible).</p>
@@ -116,6 +129,12 @@ course:
 <tr><td>link</td><td>BackboneElement[]</td><td>0..*</td><td>Liên kết đến record khác (merge)</td></tr>
 </tbody>
 </table>
+
+<blockquote>
+<p><strong>Đọc lại cột "Số lượng" một lần nữa.</strong> Không có phần tử nào của <code>Patient</code> bắt đầu bằng <code>1</code> — nghĩa là <code>{ "resourceType": "Patient" }</code> là một bản ghi <strong>hợp lệ đầy đủ</strong> theo <a href="https://www.hl7.org/fhir/R5/patient.html" target="_blank" rel="noopener">base spec R5</a>. Không tên, không mã, không ngày sinh: validator vẫn xanh và server vẫn nhận.</p>
+<p>Đừng vì thế kết luận rằng specification không bắt buộc gì bao giờ. Ngay trong <code>Patient</code>, hai phần tử con của <code>link</code> là <code>1..1</code>: <code>Patient.link.other</code> (trỏ tới bản ghi nào) và <code>Patient.link.type</code> (quan hệ gì). Ranh giới rất rõ — specification bắt buộc ở chỗ mà thiếu thì câu trở nên <em>vô nghĩa</em> (một link không có đích thì không còn là link), còn danh tính bệnh nhân thì để mở, vì đó là <strong>chính sách của tổ chức</strong>, không phải ngữ pháp của chuẩn.</p>
+<p>Hệ quả thực tế: trường nào bắt buộc, siết bằng profile ra sao, so trùng bệnh nhân thế nào, và mã bệnh nhân của tổ chức định nghĩa ra sao — bốn thứ đó quyết định chất lượng dữ liệu, và không thứ nào nằm trong base spec.</p>
+</blockquote>
 
 <h3 id="patient-viet-nam"><strong>Patient Resource cho bệnh nhân Việt Nam — Ví dụ đầy đủ</strong></h3>
 

@@ -125,7 +125,7 @@ sections:
         duration_minutes: 150
         is_free: true
         sort_order: 4
-        video_url: null
+        video_url: https://youtu.be/QXUAV58WwJ4
       - id: 019e0a10-a202-7001-d001-f1a7f8000202
         title: 'Bài 5: Encounter, Condition, Observation - Resources lâm sàng'
         slug: bai-5-encounter-condition-observation-resources-lam-sang
