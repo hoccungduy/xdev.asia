@@ -306,7 +306,7 @@ sections:
         duration_minutes: 180
         is_free: true
         sort_order: 18
-        video_url: null
+        video_url: https://youtu.be/jMFl-lHTHl4
       - id: 019e0a10-a602-7001-d001-f1a7f8000602
         title: 'Bài 19: Hands-on - FHIR Client và tích hợp ứng dụng'
         slug: bai-19-hands-on-fhir-client-va-tich-hop-ung-dung
