@@ -197,7 +197,7 @@ sections:
         duration_minutes: 150
         is_free: true
         sort_order: 10
-        video_url: null
+        video_url: https://youtu.be/iOp4OlBr_WM
   - id: section-04
     title: 'Phần 4: Data Types, Terminologies và Profiles'
     description: 'Kiểu dữ liệu, hệ thống mã y tế, Profiles và Extensions'
