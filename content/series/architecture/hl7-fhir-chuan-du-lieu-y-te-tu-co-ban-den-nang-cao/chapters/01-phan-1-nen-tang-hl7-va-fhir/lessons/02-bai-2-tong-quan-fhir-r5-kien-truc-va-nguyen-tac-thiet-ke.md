@@ -8,7 +8,7 @@ description: >-
   so sánh FHIR R4 vs R5, các modules trong specification.
 duration_minutes: 120
 is_free: true
-video_url: null
+video_url: https://youtu.be/7BMNQEJX6O4
 sort_order: 2
 section_title: "Phần 1: Nền tảng HL7 và FHIR"
 course:
@@ -86,6 +86,19 @@ course:
   <!-- xDev watermark -->
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/7BMNQEJX6O4"
+    title="Bài 2: Tổng quan FHIR R5 - Kiến trúc và nguyên tắc thiết kế"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
 
 <h2 id="1-kien-truc-tong-the-fhir"><strong>1. Kiến trúc tổng thể FHIR</strong></h2>
 
@@ -208,9 +221,9 @@ course:
 
 <p>Ví dụ: Resource Patient cơ bản không có trường "số CCCD" (chỉ Việt Nam dùng), nhưng bạn có thể thêm qua Extension hoặc sử dụng <code>identifier</code> với system phù hợp.</p>
 
-<h2 id="4-exchange-paradigms"><strong>4. Ba paradigm trao đổi dữ liệu</strong></h2>
+<h2 id="4-exchange-paradigms"><strong>4. Bốn paradigm trao đổi dữ liệu</strong></h2>
 
-<p>FHIR hỗ trợ 3 cách trao đổi dữ liệu, phù hợp với các tình huống khác nhau:</p>
+<p>Trang <a href="https://www.hl7.org/fhir/summary.html" target="_blank" rel="noopener">Summary</a> của specification nêu nguyên văn: <em>"Support for RESTful architectures, seamless exchange of information using messages or documents, and service-based architectures."</em> Đếm lại thì đó là <strong>bốn</strong> cách, và RESTful chỉ là cách đứng đầu danh sách — không phải cách duy nhất, cũng không phải cách được specification ưu tiên hơn ba cách còn lại.</p>
 
 <h3 id="restful-api"><strong>4.1. RESTful API</strong></h3>
 
@@ -294,6 +307,27 @@ DELETE /Patient/123
 </code></pre>
 
 <p><strong>Dùng khi:</strong> Giấy ra viện, tóm tắt bệnh án, giấy chuyển tuyến, International Patient Summary.</p>
+
+<h3 id="services"><strong>4.4. Service-based architectures</strong></h3>
+
+<p>Cách thứ tư — thường bị bỏ qua nhất khi người ta học FHIR qua REST. Khi tác vụ không map gọn vào một HTTP method trên một resource, FHIR định nghĩa <strong>operation</strong>: một endpoint có tên riêng, có tham số vào và ra khai báo bằng <code>OperationDefinition</code>.</p>
+
+<pre><code># Tra một mã thuộc ValueSet nào không (terminology service)
+GET /ValueSet/$expand?url=http://hl7.org/fhir/ValueSet/observation-codes
+
+# Kiểm một mã có hợp lệ trong ValueSet
+POST /ValueSet/$validate-code
+
+# Sinh Composition tóm tắt bệnh nhân
+GET /Patient/123/$summary
+
+# Chạy một CQL library trên dữ liệu bệnh nhân
+POST /Measure/$evaluate-measure
+</code></pre>
+
+<p><strong>Dùng khi:</strong> Terminology service (<code>$expand</code>, <code>$lookup</code>, <code>$validate-code</code>), tính toán trên nhiều resource, hoặc bất cứ tác vụ nào là <em>một hành vi</em> chứ không phải <em>một phép CRUD trên một resource</em>.</p>
+
+<p>Ba paradigm 4.2 – 4.4 không phải mẹo lách REST. Chúng là thành phần chính thức của chuẩn, có luật riêng, và specification dựng sẵn chúng. Khi chọn cách tích hợp, hỏi trước: dữ liệu này là <strong>một lần đọc ghi</strong>, <strong>một tài liệu cần đóng dấu</strong>, <strong>một thông điệp cần đẩy</strong>, hay <strong>một dịch vụ cần gọi</strong>? Bốn câu trả lời dẫn tới bốn paradigm khác nhau.</p>
 
 <h2 id="5-fhir-maturity-model"><strong>5. FHIR Maturity Model (FMM)</strong></h2>
 

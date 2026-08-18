@@ -98,7 +98,7 @@ sections:
         duration_minutes: 120
         is_free: true
         sort_order: 2
-        video_url: null
+        video_url: https://youtu.be/7BMNQEJX6O4
       - id: 019e0a10-a103-7001-d001-f1a7f8000103
         title: 'Bài 3: Cài đặt môi trường phát triển FHIR'
         slug: bai-3-cai-dat-moi-truong-phat-trien-fhir
