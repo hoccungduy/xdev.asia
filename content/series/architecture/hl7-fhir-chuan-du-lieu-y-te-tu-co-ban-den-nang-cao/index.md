@@ -359,7 +359,7 @@ sections:
         duration_minutes: 120
         is_free: true
         sort_order: 22
-        video_url: null
+        video_url: https://youtu.be/kG6ALfL0PaQ
       - id: 019e0a10-a702-7001-d001-f1a7f8000702
         title: 'Bài 23: FHIR trong bối cảnh Y tế Việt Nam'
         slug: bai-23-fhir-trong-boi-canh-y-te-viet-nam
