@@ -330,7 +330,7 @@ sections:
         duration_minutes: 180
         is_free: true
         sort_order: 20
-        video_url: null
+        video_url: https://youtu.be/9YgiRfRDj9U
       - id: 019e0a10-a604-7001-d001-f1a7f8000604
         title: 'Bài 21: Hands-on - Tích hợp FHIR với EMR/HIS thực tế'
         slug: bai-21-hands-on-tich-hop-fhir-voi-emr-his-thuc-te
