@@ -394,7 +394,7 @@ sections:
         duration_minutes: 90
         is_free: true
         sort_order: 25
-        video_url: null
+        video_url: https://youtu.be/9mNF-avlz1U
 ---
 
 ## Giới thiệu Series
