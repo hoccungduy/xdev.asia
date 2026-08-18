@@ -318,7 +318,7 @@ sections:
         duration_minutes: 150
         is_free: true
         sort_order: 19
-        video_url: null
+        video_url: https://youtu.be/x4Xe3PMGrf8
       - id: 019e0a10-a603-7001-d001-f1a7f8000603
         title: 'Bài 20: Hands-on - Xây dựng Implementation Guide cho Việt Nam'
         slug: bai-20-hands-on-xay-dung-implementation-guide-cho-viet-nam

@@ -8,7 +8,7 @@ description: >-
   với React + FHIR, mobile app integration, error handling và retry patterns.
 duration_minutes: 150
 is_free: true
-video_url: null
+video_url: https://youtu.be/x4Xe3PMGrf8
 sort_order: 19
 section_title: "Phần 6: Thực hành - Xây dựng hệ thống FHIR"
 course:
@@ -86,6 +86,19 @@ course:
   <!-- xDev watermark -->
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/x4Xe3PMGrf8"
+    title="Bài 19: Hands-on — FHIR Client và Tích hợp Ứng dụng"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
 
 <h2 id="1-fhir-client-overview"><strong>1. FHIR Client Overview</strong></h2>
 
