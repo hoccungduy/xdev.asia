@@ -342,7 +342,7 @@ sections:
         duration_minutes: 150
         is_free: true
         sort_order: 21
-        video_url: null
+        video_url: https://youtu.be/thBhh--qt_M
   - id: section-07
     title: 'Phần 7: Production, Quy mô và Tương lai'
     description: 'Triển khai production, bối cảnh Việt Nam, case studies, xu hướng tương lai'
