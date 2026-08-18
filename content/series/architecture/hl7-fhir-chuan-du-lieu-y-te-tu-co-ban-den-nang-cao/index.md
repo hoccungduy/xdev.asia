@@ -174,7 +174,7 @@ sections:
         duration_minutes: 150
         is_free: true
         sort_order: 8
-        video_url: null
+        video_url: https://youtu.be/jCWa76C19Mc
       - id: 019e0a10-a302-7001-d001-f1a7f8000302
         title: 'Bài 9: Bundle, Transaction và Batch - Xử lý nhiều Resources'
         slug: bai-9-bundle-transaction-va-batch-xu-ly-nhieu-resources

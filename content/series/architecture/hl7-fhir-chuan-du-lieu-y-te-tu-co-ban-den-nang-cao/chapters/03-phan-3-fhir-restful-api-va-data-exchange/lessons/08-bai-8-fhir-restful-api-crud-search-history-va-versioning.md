@@ -8,7 +8,7 @@ description: >-
   (JSON/XML), ETag, If-Match, Conditional operations, CapabilityStatement.
 duration_minutes: 150
 is_free: true
-video_url: null
+video_url: https://youtu.be/jCWa76C19Mc
 sort_order: 8
 section_title: "Phần 3: FHIR RESTful API và Data Exchange"
 course:
@@ -86,6 +86,19 @@ course:
   <!-- xDev watermark -->
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/jCWa76C19Mc"
+    title="Bài 8: FHIR RESTful API - CRUD, Search, History và Versioning"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
 
 <h2 id="1-fhir-restful-api-overview"><strong>1. FHIR RESTful API Overview</strong></h2>
 
