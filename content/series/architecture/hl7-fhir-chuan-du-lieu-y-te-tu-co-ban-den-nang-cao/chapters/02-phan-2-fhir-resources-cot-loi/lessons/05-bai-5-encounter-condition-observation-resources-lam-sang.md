@@ -8,7 +8,7 @@ description: >-
   Resources với nhau qua References, Observation categories, Condition staging.
 duration_minutes: 150
 is_free: true
-video_url: null
+video_url: https://youtu.be/O_JPncH-P-s
 sort_order: 5
 section_title: "Phần 2: FHIR Resources cốt lõi"
 course:
@@ -86,6 +86,19 @@ course:
   <!-- xDev watermark -->
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/O_JPncH-P-s"
+    title="Bài 5: Encounter, Condition, Observation - Resources lâm sàng"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
 
 <h2 id="1-encounter-resource"><strong>1. Encounter Resource — Lượt khám / Nhập viện</strong></h2>
 

@@ -136,7 +136,7 @@ sections:
         duration_minutes: 150
         is_free: true
         sort_order: 5
-        video_url: null
+        video_url: https://youtu.be/O_JPncH-P-s
       - id: 019e0a10-a203-7001-d001-f1a7f8000203
         title: 'Bài 6: Medication, MedicationRequest, Immunization - Resources thuốc'
         slug: bai-6-medication-medicationrequest-immunization-resources-thuoc
