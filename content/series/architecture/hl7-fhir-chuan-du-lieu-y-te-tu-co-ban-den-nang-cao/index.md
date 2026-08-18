@@ -214,7 +214,7 @@ sections:
         duration_minutes: 120
         is_free: true
         sort_order: 11
-        video_url: null
+        video_url: https://youtu.be/-MPEb4B3z2Q
       - id: 019e0a10-a402-7001-d001-f1a7f8000402
         title: 'Bài 12: Terminologies - CodeSystem, ValueSet, ConceptMap'
         slug: bai-12-terminologies-codesystem-valueset-conceptmap
