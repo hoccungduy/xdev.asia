@@ -109,7 +109,7 @@ sections:
         duration_minutes: 120
         is_free: true
         sort_order: 3
-        video_url: null
+        video_url: https://youtu.be/Qgup6Qzbi9I
   - id: section-02
     title: 'Phần 2: FHIR Resources cốt lõi'
     description: 'Tìm hiểu chi tiết các Resources hành chính, lâm sàng, thuốc và chẩn đoán'
