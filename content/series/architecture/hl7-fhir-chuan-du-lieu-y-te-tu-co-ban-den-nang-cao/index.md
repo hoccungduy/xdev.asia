@@ -266,7 +266,7 @@ sections:
         duration_minutes: 120
         is_free: true
         sort_order: 15
-        video_url: null
+        video_url: https://youtu.be/b4REXQ5pz_8
       - id: 019e0a10-a503-7001-d001-f1a7f8000503
         title: 'Bài 16: SMART on FHIR - OAuth2 và ứng dụng y tế'
         slug: bai-16-smart-on-fhir-oauth2-va-ung-dung-y-te
