@@ -254,7 +254,7 @@ sections:
         duration_minutes: 120
         is_free: true
         sort_order: 14
-        video_url: null
+        video_url: https://youtu.be/j0EhbT43ofY
       - id: 019e0a10-a502-7001-d001-f1a7f8000502
         title: 'Bài 15: FHIR Subscriptions và Real-time Notifications'
         slug: bai-15-fhir-subscriptions-va-real-time-notifications

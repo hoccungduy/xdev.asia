@@ -8,7 +8,7 @@ description: >-
   so sánh REST vs Messaging vs Documents, use cases cho từng paradigm.
 duration_minutes: 120
 is_free: true
-video_url: null
+video_url: https://youtu.be/j0EhbT43ofY
 sort_order: 14
 section_title: "Phần 5: Tích hợp, Messaging và Security"
 course:
@@ -85,6 +85,19 @@ course:
   <!-- xDev watermark -->
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/j0EhbT43ofY"
+    title="Bài 14: FHIR Documents và Messaging"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
 
 <h2 id="1-fhir-exchange-paradigms"><strong>1. Ba Paradigm trao đổi dữ liệu trong FHIR</strong></h2>
 
