@@ -8,7 +8,7 @@ description: >-
   conditional references, batch processing, thực hành tạo transaction bundle.
 duration_minutes: 120
 is_free: true
-video_url: null
+video_url: https://youtu.be/QDCLU3KpLqA
 sort_order: 9
 section_title: "Phần 3: FHIR RESTful API và Data Exchange"
 course:
@@ -86,6 +86,19 @@ course:
   <!-- xDev watermark -->
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/QDCLU3KpLqA"
+    title="Bài 9: Bundle, Transaction và Batch - Xử lý nhiều Resources"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
 
 <h2 id="1-bundle-resource"><strong>1. Bundle Resource</strong></h2>
 

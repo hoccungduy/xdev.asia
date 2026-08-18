@@ -185,7 +185,7 @@ sections:
         duration_minutes: 120
         is_free: true
         sort_order: 9
-        video_url: null
+        video_url: https://youtu.be/QDCLU3KpLqA
       - id: 019e0a10-a303-7001-d001-f1a7f8000303
         title: 'Bài 10: Search Parameters và tìm kiếm nâng cao'
         slug: bai-10-search-parameters-va-tim-kiem-nang-cao
