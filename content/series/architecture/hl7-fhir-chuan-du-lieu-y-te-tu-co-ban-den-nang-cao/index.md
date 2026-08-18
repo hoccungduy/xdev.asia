@@ -158,7 +158,7 @@ sections:
         duration_minutes: 120
         is_free: true
         sort_order: 7
-        video_url: null
+        video_url: https://youtu.be/trkG9LvTjDc
   - id: section-03
     title: 'Phần 3: FHIR RESTful API và Data Exchange'
     description: 'Tương tác REST, Bundle, Transaction, Search nâng cao'

@@ -8,7 +8,7 @@ description: >-
   Specimen (mẫu bệnh phẩm). Workflow chẩn đoán từ yêu cầu đến kết quả.
 duration_minutes: 120
 is_free: true
-video_url: null
+video_url: https://youtu.be/trkG9LvTjDc
 sort_order: 7
 section_title: "Phần 2: FHIR Resources cốt lõi"
 course:
@@ -86,6 +86,19 @@ course:
   <!-- xDev watermark -->
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/trkG9LvTjDc"
+    title="Bài 7: DiagnosticReport, Procedure, AllergyIntolerance - Resources chẩn đoán"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
 
 <h2 id="1-diagnostic-workflow"><strong>1. Diagnostic Workflow</strong></h2>
 
