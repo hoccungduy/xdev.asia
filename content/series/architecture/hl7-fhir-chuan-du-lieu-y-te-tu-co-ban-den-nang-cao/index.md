@@ -147,7 +147,7 @@ sections:
         duration_minutes: 120
         is_free: true
         sort_order: 6
-        video_url: null
+        video_url: https://youtu.be/gmTt82qdIVM
       - id: 019e0a10-a204-7001-d001-f1a7f8000204
         title: 'Bài 7: DiagnosticReport, Procedure, AllergyIntolerance - Resources chẩn đoán'
         slug: bai-7-diagnosticreport-procedure-allergyintolerance-resources-chan-doan

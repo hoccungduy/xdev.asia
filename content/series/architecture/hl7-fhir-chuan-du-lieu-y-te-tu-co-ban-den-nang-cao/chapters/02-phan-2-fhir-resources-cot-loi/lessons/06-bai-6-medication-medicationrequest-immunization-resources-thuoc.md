@@ -8,7 +8,7 @@ description: >-
   Immunization (tiêm chủng), liên kết với CodeSystem thuốc (RxNorm, ATC).
 duration_minutes: 120
 is_free: true
-video_url: null
+video_url: https://youtu.be/gmTt82qdIVM
 sort_order: 6
 section_title: "Phần 2: FHIR Resources cốt lõi"
 course:
@@ -86,6 +86,19 @@ course:
   <!-- xDev watermark -->
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/gmTt82qdIVM"
+    title="Bài 6: Medication, MedicationRequest, Immunization - Resources thuốc"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
 
 <h2 id="1-medication-workflow"><strong>1. Medication Workflow trong FHIR</strong></h2>
 
