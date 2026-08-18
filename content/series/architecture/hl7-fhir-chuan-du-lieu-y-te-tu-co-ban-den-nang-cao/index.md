@@ -382,7 +382,7 @@ sections:
         duration_minutes: 120
         is_free: true
         sort_order: 24
-        video_url: null
+        video_url: https://youtu.be/zacUSdGuTw4
       - id: 019e0a10-a704-7001-d001-f1a7f8000704
         title: 'Bài 25: Tương lai FHIR - R6, AI/ML, Genomics và xu hướng mới'
         slug: bai-25-tuong-lai-fhir-r6-ai-ml-genomics-va-xu-huong-moi

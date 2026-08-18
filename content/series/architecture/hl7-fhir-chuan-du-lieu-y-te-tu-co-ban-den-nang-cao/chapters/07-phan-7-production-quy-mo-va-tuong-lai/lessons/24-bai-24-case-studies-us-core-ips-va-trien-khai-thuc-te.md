@@ -8,7 +8,7 @@ description: >-
   so sánh các quốc gia, áp dụng cho Việt Nam.
 duration_minutes: 120
 is_free: true
-video_url: null
+video_url: https://youtu.be/zacUSdGuTw4
 sort_order: 24
 section_title: "Phần 7: Production, Quy mô và Tương lai"
 course:
@@ -86,6 +86,19 @@ course:
   <!-- xDev watermark -->
   <text x="1140" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#475569" text-anchor="end" opacity="0.4">xdev.asia</text>
 </svg>
+
+## Xem bản video
+
+<div style="position:relative;padding-top:56.25%;margin:1.25rem 0;border-radius:12px;overflow:hidden;background:#080C18;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/zacUSdGuTw4"
+    title="Bài 24: Case Studies — US Core, IPS và Triển khai Thực tế"
+    loading="lazy"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
 
 <h2 id="1-us-core"><strong>1. US Core Implementation Guide</strong></h2>
 
